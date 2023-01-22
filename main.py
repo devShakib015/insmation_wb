@@ -20,6 +20,7 @@ def skip_not_now(browser):
             By.XPATH, "//button[contains(text(), 'Not Now')]")
         not_now.click()
     except:
+        print("Unable to skip! Please skip manually.")
         pass
 
 
@@ -86,3 +87,5 @@ else:
     for loginInfo in loginInfos:
         print(f"Logging in with {loginInfo.get_username()}")
         instagram_login(loginInfo)
+
+    print("\n\nAll accounts logged in successfully!\n\n")

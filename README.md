@@ -7,7 +7,15 @@ Instagram Multiple accounts login automation for the web browser!
   <pre><code>cd "path to the directory"</code></pre>
 
 3. Create a virtual environment:
-  <pre><code>python3 -m venv venv</code></pre>
+  <pre><code>python -m venv venv</code></pre>
+
+  If python is not installed, then install it from [here](https://www.python.org/downloads/).
+  
+  If you are using Linux, then you can install python using the following command:
+  <pre><code>sudo apt-get install python3</code></pre>
+
+  If python doesn't work, then try python3 instead of python.
+
 
 4. Activate the virtual environment:
   
@@ -23,7 +31,9 @@ Instagram Multiple accounts login automation for the web browser!
   <pre><code>username,password</code></pre>
 
 7. Then run the script as:
-  <pre><code>python3 main.py</code></pre>
+  <pre><code>python main.py</code></pre>
+
+  If python doesn't work, then try python3 instead of python.
 
 8. Enter the path to the credentials file in the terminal:
   <pre><code>Enter the path to your credentials file: "path to the credentials file"</code></pre>
